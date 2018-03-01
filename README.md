@@ -5,5 +5,9 @@ The application requires first 3 sections of an IP address, port number, and con
 
 For example: You connect Raspberry Pi to your network, and want to connect to it without having to configure static IP address allocation. To connect to Raspberry Pi you will need to know an IP address assigned to the device. Run the DeviceIpFinder to find the IP of the Raspberry Pi.
 
+# Questions and Answers
+Q: How to find Raspberry Pi IP address?
 
-
+A: Answer has two steps:
+1. Once you connected Raspberry Pi to your network run the DeviceIpFinder and specify the first three octets of your network IP address like this: 192.168.0 or 192.168.1
+2. Click the DeviceIpFinder's "Start" button 
