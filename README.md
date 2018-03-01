@@ -8,6 +8,8 @@ For example: You connect Raspberry Pi to your network, and want to connect to it
 # Questions and Answers
 Q: How to find Raspberry Pi IP address?
 
-A: Answer has two steps:
+A: Answer has three steps:
 1. Once you connected Raspberry Pi to your network run the DeviceIpFinder and specify the first three octets of your network IP address like this: 192.168.0 or 192.168.1
-2. Click the DeviceIpFinder's "Start" button 
+3. Specify the configured SSH port (or any other port you requre) like this: 22
+2. Click the DeviceIpFinder's "Start" button
+DeviceIpFinder will display the address of your Raspberry PI along with "Success" status
